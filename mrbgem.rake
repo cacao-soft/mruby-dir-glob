@@ -9,7 +9,7 @@ MRuby::Gem::Specification.new('mruby-dir-glob') do |spec|
   spec.add_dependency 'mruby-io'
   spec.add_dependency 'mruby-errno'
   spec.add_dependency 'mruby-file-stat'
-  spec.add_dependency 'mruby-process'
+  spec.add_dependency 'mruby-process', mgem: 'mruby-process2'
   spec.add_dependency 'mruby-pack'
 
   # how to specify a 'general' regexp engine?
